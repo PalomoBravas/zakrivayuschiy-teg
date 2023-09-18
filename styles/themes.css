@@ -7,6 +7,7 @@
 
 :root .theme-dark {
     --text-color: #00CC14;
+    --main-font-width: 785;
     --bg-color: #000;
     --accent-color: #00CC14;
     --bg-image: url(../svg/pattern-dark.svg);
@@ -14,6 +15,7 @@
 
 :root .theme-light {
     --text-color: #000;
+    --main-font-width: 400;
     --bg-color: #FFF;
     --accent-color: #000;
     --bg-image: url(../svg/pattern-light.svg);
@@ -22,6 +24,7 @@
 @media (prefers-color-scheme: light) {
     :root {
         --text-color: #000;
+        --main-font-width: 400;
         --bg-color: #FFF;
         --accent-color: #000;
         --bg-image: url(../svg/pattern-light.svg);
@@ -31,6 +34,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --text-color: #00CC14;
+        --main-font-width: 785;
         --bg-color: #000;
         --accent-color: #00CC14;
         --bg-image: url(../svg/pattern-dark.svg);

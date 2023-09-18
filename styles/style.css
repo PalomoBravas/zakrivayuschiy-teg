@@ -26,6 +26,7 @@
     display: grid;
     justify-items: center;
     font-family: var(--main-font-family);
+    font-variation-settings: 'wght' var(--main-font-width)
 
 }
 
