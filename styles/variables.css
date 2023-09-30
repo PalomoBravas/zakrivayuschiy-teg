@@ -3,4 +3,5 @@
     --main-font-family: Inter, Arial, sans-serif;
     --accent-font-family: PressStart2P, Courier, sans-serif;
     --width: clamp(371px, 50%, 696px);
+    --active-heart: #F00;
 }
