@@ -83,7 +83,7 @@
     display: block;
     position: absolute;
     left: -14px;
-    animation: jump 0.5s ease-in-out infinite alternate;;
+    animation: jump 0.5s ease-in-out infinite alternate;
 }
 
 
@@ -156,10 +156,7 @@
 
 }
 
-.card__icon-button {
-    background: transparent;
-    border: none;
-}
+
 
 .card__like-button {
     inline-size: 130px;
@@ -168,6 +165,12 @@
     background: var(--bg-color);
     font-family: var(--accent-font-family);
     font-size: 14px;
+    cursor: pointer;
+}
+
+.button__text {
+    position: relative;
+    z-index: 10;
 }
 
 .footer {
@@ -191,7 +194,11 @@
     gap: 8px;
     padding-block: 15px;
     padding-inline: 14px;
+}
 
+.footer__svg {
+    position: relative;
+    z-index: 10;
 }
 
 @media (width <= 425px) {
@@ -209,11 +216,11 @@
     }
 }
 
-@keyframes jump {
-    0% {
-        left: -10px;
-    }
-    100% {
-        left: -14px;
-    }
-}
+
+
+
+
+
+
+
+
